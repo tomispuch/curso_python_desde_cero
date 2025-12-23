@@ -11,3 +11,4 @@ print(f"El tipo de dato de edad es: {type(edad)}")
 edad_num = int(edad)
 nueva_edad = edad_num + 1
 print(f"El próximo año tendrás {nueva_edad} años.")
+

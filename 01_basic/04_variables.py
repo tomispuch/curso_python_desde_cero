@@ -35,3 +35,6 @@ MI_CONSTANTE = 3.14  # Convencion para constantes, aunque Python no tiene consta
 #Se puede especificar el tipo de dato de una variable (opcional)
 altura: float = 1.75
 es_estudiante: bool = True
+
+#Esto es un type anotation, no hace que la variable sea de ese tipo, solo es para documentacion y herramientas de analisis estatico
+
