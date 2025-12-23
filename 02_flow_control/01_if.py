@@ -36,3 +36,17 @@ if edad >= 18 and tiene_carnet:
 # not = !
 if not tiene_carnet:
     print("No tienes carnet de conducir.")
+
+#Se interpreta como True cualquier valor diferente de cero o una cadena no vacia
+numero = 3
+if numero:
+    print("El numero es diferente de cero.")
+
+#La condicion ternaria
+
+# codigo si se cumple if condicion else codigo si no se cumple
+edad = 16
+mensaje = "Eres mayor de edad." if edad >= 18 else "Eres menor de edad."
+print(mensaje)
+
+#Se escribe asi ya que es la forma mas parecida al lenguaje natural.
