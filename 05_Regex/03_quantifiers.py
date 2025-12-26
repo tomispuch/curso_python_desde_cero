@@ -19,3 +19,10 @@ patron_interrogacion = r"Ho?la"  # La 'o' puede aparecer 0 o 1 vez
 texto_interrogacion = "Hla Hola Hoola"
 resultados_interrogacion = re.findall(patron_interrogacion, texto_interrogacion)
 print("Resultados con interrogacion:", resultados_interrogacion)  # ['Hla', 'Hola']
+
+#4. {n}: Exactamente n repeticiones
+patron_exactamente_n = r"Ho{2}la"  # La 'o
+texto_exactamente_n = "Hla Hola Hoola Hoooola"
+resultados_exactamente_n = re.findall(patron_exactamente_n, texto_exactamente_n)
+print("Resultados con exactamente n:", resultados_exactamente_n)  # ['Hoola']  debe aparecer exactamente 2 veces
+

@@ -64,3 +64,4 @@ if resultado_modificador:
 #Reemplazar todas las ocurrencias de "IA" por "Inteligencia Artificial"
 texto_modificado = re.sub(patron_ejercicio, "Inteligencia Artificial", texto_ejercicio)
 print("Texto modificado:", texto_modificado)
+

@@ -81,3 +81,9 @@ texto_limite_palabra = "Hola mundo, el mundovich es grande."
 patron_limite_palabra = r"\bmundo\b"  # Busca la palabra "mundo" completa
 resultados_limite_palabra = re.findall(patron_limite_palabra, texto_limite_palabra)
 print("Palabras 'mundo' encontradas:", resultados_limite_palabra)  # ['mundo']
+
+#7. | : Operador OR (o)
+texto_or = "Me gusta el color rojo y el color azul."
+patron_or = r"rojo|azul"  # Busca "rojo" o "azul"
+resultados_or = re.findall(patron_or, texto_or)
+print("Colores encontrados:", resultados_or)  # ['rojo', 'azul']
